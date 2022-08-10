@@ -1,0 +1,56 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css);
+
+@font-face {
+    font-family: Cocogoose;
+    src: url(./Cocogoose\ Pro-trial.ttf);
+}
+
+@font-face {
+    font-family: Garet Book;
+    src: url(./Garet-Book.ttf);
+}
+
+body {
+    background: #F0EBEB;
+    background-image: linear-gradient(90deg, transparent 50%, #DDDBE6 50%);
+    background-size: 50px 50px;
+}
+
+.bold {
+    text-decoration: underline;
+}
+
+.color {
+    color: blueviolet;
+    font-style: normal;
+}
+
+.corp {
+    background-color: #F0EBEB;
+    backdrop-filter: blur(5px);
+    border-radius: 20px 20px;
+    font-family: 'Garet Book', sans-serif;
+    width: 550px;
+    line-height: normal;
+    text-indent: 1em;
+    text-align: justify;
+    margin: 334px auto;
+    padding: 30px 20px;
+    box-shadow: 6px 6px 15px #C2C2C2;
+}
+
+/*Atributo para dar destaque a palavra 'espaçamento'*/ 
+.esp {
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+p {
+    margin-top: 15px;
+}
+
+.title {
+    font: 2em/1 'Cocogoose', sans-serif;
+}
+
+
